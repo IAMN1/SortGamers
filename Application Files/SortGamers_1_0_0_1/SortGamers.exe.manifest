@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SortGamers.exe" version="1.0.0.1" publicKeyToken="6d0c9148eee2e70b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SortGamers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SortGamers.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SortGamers.exe" size="14760">
+      <assemblyIdentity name="SortGamers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5L7qAaFoTuGnfxvMhn6tNt0XvBkHG7ab2bAhrXxbKkQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SortGamers.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=IAMN1\andre" issuerKeyHash="0169e2e270a0407a0187bc07b7eeb58e9a38acbd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rPVn63Sgo9Vr9rlkhosSOqRb7/UrHfPvqMqqZNbHBX8=</DigestValue></Reference></SignedInfo><SignatureValue>IJrwOr0pUvLlMTTZ/VYBwH5DLSWyABblr7QwF61eKkrAHZwhgyEsCZjrM4xnxYyskLqYK2YbGfMBCbLfYVirntdqVSpVUUa2YweBU9RcdXlNdxoXciddXHQxO+YLV1sVDWMFYmf4mxSClLe2cbGGzdvDSNUV+jCTHSvHPvyeXYA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uduauGOF+QxO1lCsovBoMuP0NFjGS0gZ0H6t0zizT/4nk8WCPGg/2vjXDWIIjIWbk74sr/p9L1WoAWn+zR9zjRW+5MQGvKWmMny0hptR792wbGqG0d1lIxYa/wlfpLl6L1YDJ8ize7HUno5ODmpGTcDPSYXssZ2mHrZYlhGQX+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7f05c7d664aacaa8eff31d2bf5ef5ba43a128b8664b9f66bd5a3a074eb67f5ac" Description="" Url=""><as:assemblyIdentity name="SortGamers.exe" version="1.0.0.1" publicKeyToken="6d0c9148eee2e70b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IAMN1\andre</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ArhdZ/Xe9jzjM9XYazoNNLw1D7e6phhmVhZd83VvGWo=</DigestValue></Reference></SignedInfo><SignatureValue>V4fUl41FCZpbVO6K4wiK6k1zvuGO5eUd7RK2JEgxrWbOQ/Q8ErJ91G6u1qEF2sIKSB0OeP6eUE/fVYauCOK1gkUSBq1ysoY3GiKKgcf+7GI00ilZeWinUTHzLV2I19/YtsR4RQF1tD+EnHfOeTvUEiJ0jY2ATS4QhdzBt2yVs/A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uduauGOF+QxO1lCsovBoMuP0NFjGS0gZ0H6t0zizT/4nk8WCPGg/2vjXDWIIjIWbk74sr/p9L1WoAWn+zR9zjRW+5MQGvKWmMny0hptR792wbGqG0d1lIxYa/wlfpLl6L1YDJ8ize7HUno5ODmpGTcDPSYXssZ2mHrZYlhGQX+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQHMNW8tKW8L1MgOBxOal7UDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYASQBBAE0ATgAxAFwAYQBuAGQAcgBlMB4XDTIxMDcxMTEyMjczMVoXDTIyMDcxMTE4MjczMVowITEfMB0GA1UEAx4WAEkAQQBNAE4AMQBcAGEAbgBkAHIAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuduauGOF+QxO1lCsovBoMuP0NFjGS0gZ0H6t0zizT/4nk8WCPGg/2vjXDWIIjIWbk74sr/p9L1WoAWn+zR9zjRW+5MQGvKWmMny0hptR792wbGqG0d1lIxYa/wlfpLl6L1YDJ8ize7HUno5ODmpGTcDPSYXssZ2mHrZYlhGQX+ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAo7j4yIG0SA6aTxVwhKhEKCXftcBLgwNZNcrB4f+w5AT0AAoK+Q7kJRXJvZiHW3XAR6FFA588TX2+09UjeQ21vbFybe48HXvd5qnq5UwxZDdfL64pRzqluPJbHhAVk89smkjGhKU1urSBX5csd5ZGDfBM/2RSz6AoZllOdB49ANg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
